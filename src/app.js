@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuex from "vuex";
+
 import router from './router/router.js';
 
 import App from './App.vue';
@@ -19,8 +20,5 @@ new Vue({
 	el: '#app',
 	router,
 	store,
-	data:{
-		router
-	},
 	render: h => h(App)
 })

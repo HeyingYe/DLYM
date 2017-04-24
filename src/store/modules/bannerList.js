@@ -9,7 +9,7 @@ const state = {
 }
 
 const getters = {
-	allData:function(state){
+	allData3:function(state){
 		return state.data
 	}
 }
@@ -21,7 +21,7 @@ const mutations = {
 }
 
 const actions = {
-	getAllData:function({commit}){
+	getAllData2:function({commit}){
 		commit(types.RECEIVE_DATA)
 	}
 }

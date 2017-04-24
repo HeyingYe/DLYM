@@ -9,19 +9,19 @@ const state = {
 }
 
 const getters = {
-	allData:function(state){
+	allData2:function(state){
 		return state.data
 	}
 }
 
 const mutations = {
 	[types.RECEIVE_DATA](state){
-		
+		console.log("success2")
 	}
 }
 
 const actions = {
-	getAllData:function({commit}){
+	getAllData5:function({commit}){
 		commit(types.RECEIVE_DATA)
 	}
 }

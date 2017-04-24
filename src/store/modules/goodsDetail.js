@@ -5,12 +5,16 @@ import * as types from "../mutation-types.js";
 
 //状态值
 const state = {
-	data:[]
+	data:[],
+	test:"test"
 }
 
 const getters = {
-	allData:function(state){
+	allData4:function(state){
 		return state.data
+	},
+	test:function(state){
+		return state.test
 	}
 }
 
@@ -21,7 +25,7 @@ const mutations = {
 }
 
 const actions = {
-	getAllData:function({commit}){
+	getAllData3:function({commit}){
 		commit(types.RECEIVE_DATA)
 	}
 }
